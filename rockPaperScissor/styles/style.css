@@ -1,0 +1,144 @@
+@media screen and (max-width:800px) {
+    .continer {
+        transform: scale(0.9);
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Butterfly Kids', sans-serif;
+}
+.continer {
+    width: 60%;
+    height: 50%;
+    border-radius: 40px;
+    background-color: #f8fcf1;
+    border: 18px solid #e2f2c7;
+    margin-top: 5%;
+    margin-left: 18%;
+    box-shadow: 1px 2px 8px #929292;k;
+    display: flex;
+    align-content: center;
+    padding:5px;
+}
+
+.interior {
+    align-self: center;
+    margin:3%;
+}
+
+#menu {
+    width: 200px;
+    height: 60%;
+    border-radius: 40px;
+    background-color: #d4f4fd;
+    border: 10px solid #bfdfe8;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#columm2 {
+    display: flex;
+    flex-direction: row;
+}
+.mid2 {
+    margin-left: 10%;
+}
+
+#score {
+    width: 100%;
+    height: 100px;
+    border-radius: 40px;
+    background-color: #dce8cc;
+    position: relative;
+}
+.scaleScore {
+    width: 80%;
+    height: 80px;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 35%;
+    left: 19%;
+    margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 50% 50%;
+}
+
+.header {
+    place-self: center;
+}
+
+.foter {
+    place-self: center;
+}
+.Win {
+    color: #127575;
+}
+.Lose {
+    color: #6b0e96;
+}
+.Draw {
+    color: #4bcaca;
+}
+
+#mach {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #bdf1f1;
+    border: 10px solid #c882d9;
+    align-self: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+#machine {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #e8b3f5;
+    border: 10px solid #c182d1;
+    align-self: center;
+    margin-top: 50px;
+}
+.machineHand {
+    width: 300px;
+    height: 300px;
+}
+
+.btn {
+    width: 100%;
+    height: 15%;
+    border-radius: 30px;
+}
+.btn:hover {
+    background-color: #cce4eb;
+}
+.btn:active {
+    background-color: #c182d1;
+}
+.choseImage {
+    max-width: 160px;
+}
+.midContainer {
+    position: absolute;
+    top: 20%;
+    left: -9%;
+    display: flex;
+}
+
+.result {
+    max-width: 150px;
+}
+
+@media screen and (max-width:1700px) {
+    #columm2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="continer">
+            <div  class="interior" id="menu">
+                <img src="./assets/images/user/paperUser.png" alt="paper" class="btn choseImage">
+                <img src="./assets/images/user/rockUser.png" alt="rock" class="btn choseImage"> 
+                <img src="./assets/images/user/scissorUser.png" alt="scissor" class="btn choseImage">
+            </div>
+            <div  class="interior" id="columm2">
+                <div class="mid2">
+                    <div class="mid" id="score">
+                        <div class="scaleScore">
+                            <h1 class="header Win">Win</h1>
+                            <h1 class="header Draw">Draw</h1>
+                            <h1 class="header Lose">Lose</h1>
+                            <h1 class="foter Win">0</h1>
+                            <h1 class="foter Draw">0</h1>
+                            <h1 class="foter Lose">0</h1>
+                        </div>
+                    </div>
+                    <div class="mid" id="mach">
+                        <img src="./assets/images/game/explode.png" alt="" srcset="" class="midBG">
+                        <div class="midContainer">
+                            <img src="./assets/images/user/scissorUser.png" alt="scissorUser" class="result">
+                            <img src="./assets/images/machine/paperMachine.png" alt="paperMachine"  class="result">
+                        </div>
+                    </div>
+                </div>
+                <div class="mid2" id="machine">
+                    <img src="./assets/images/machine/paperMachine.png" alt="" srcset="" class="machineHand" id="machineResult">  
+                </div>
+                </div>
+            </div>
+        
+    </div>
+    
+    <script src="./scripts/rockPaperScissor.js"></script>
+</body>
+</html>
