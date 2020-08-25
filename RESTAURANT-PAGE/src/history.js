@@ -34,7 +34,7 @@ var historyContent = ( function () {
     var h1ArticuleText = document.createTextNode('This is our history');
     var pArticule = document.createElement('p');
     var historyImage = document.createElement('img');
-    historyImage.src = '/assets/images/pexels-snapwire-245535.jpg';
+    historyImage.src = './assets/images/pexels-snapwire-245535.jpg';
     historyImage.id = 'historyImage';
     
     h1Articule.appendChild(h1ArticuleText);

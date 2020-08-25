@@ -6,7 +6,7 @@ var galeryContent = ( function () {
     galeryDiv.classList.add('contentInfo');
     galeryDiv.classList.add('galeryInfo');
     for (let index = 1; index < 7; index++) {
-        addGaleryImage(`/assets/images/galery${index}.jpg`);
+        addGaleryImage(`./assets/images/galery${index}.jpg`);
     }
     function addGaleryImage(route) {
         const image =  document.createElement('img');
@@ -15,6 +15,7 @@ var galeryContent = ( function () {
         galeryDiv.appendChild(image);
     }
     container.appendChild(galeryDiv);
+    
     //hide all content
     var content = document.querySelectorAll('.contentInfo');
     content[3].style.display = 'none';

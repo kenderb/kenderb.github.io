@@ -25,7 +25,7 @@ var homePage = (function () {
 
     var phoneIcon = document.createElement('img');
     phoneIcon.id = 'phoneIcon';
-    phoneIcon.src = '/assets/images/phone.png';
+    phoneIcon.src = './assets/images/phone.png';
 
     var infoDivPhoneText = document.createTextNode('01800-857865');
     infoDivPhone.appendChild(phoneIcon);
@@ -33,7 +33,7 @@ var homePage = (function () {
     
     //create a image tag
     var logoImg = document.createElement('img');
-    logoImg.src = '/assets/images/logo.png';
+    logoImg.src = './assets/images/logo.png';
     logoImg.alt = 'logo';
     logoImg.id = 'logo';
 

@@ -5,9 +5,9 @@ var menuContent = ( function () {
     var menuContent =  document.createElement('div');
     menuContent.classList.add('contentInfo');
     menuContent.classList.add('foodMenu');
-    createImage('/assets/images/food_01.jpg');
-    createImage('/assets/images/food_02.jpg');
-    createImage('/assets/images/food_04.jpg');
+    createImage('./assets/images/food_01.jpg');
+    createImage('./assets/images/food_02.jpg');
+    createImage('./assets/images/food_04.jpg');
     container.appendChild(menuContent);
     function createImage(rute) {
         let image =  document.createElement('img');
