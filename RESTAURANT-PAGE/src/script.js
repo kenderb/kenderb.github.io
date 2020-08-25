@@ -2,10 +2,10 @@ export {navButton};
 
 var navButton = (function () {
     var menu = document.querySelectorAll('.menu');
-    onclickAction(menu[0], 1, '/dist/assets/images/Backgorund4.jpg');
-    onclickAction(menu[1], 2, '/dist/assets/images/Backgorund4.jpg');
-    onclickAction(menu[2], 3, '/dist/assets/images/Backgorund4.jpg');
-    onclickAction(menu[3], 4, '/dist/assets/images/Backgorund4.jpg');
+    onclickAction(menu[0], 1, '/assets/images/Backgorund4.jpg');
+    onclickAction(menu[1], 2, '/assets/images/Backgorund4.jpg');
+    onclickAction(menu[2], 3, '/assets/images/Backgorund4.jpg');
+    onclickAction(menu[3], 4, '/assets/images/Backgorund4.jpg');
 
     function onclickAction (item, position, bg) {
         item.onclick = function() {
