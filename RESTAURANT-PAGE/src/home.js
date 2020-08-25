@@ -33,6 +33,7 @@ var homePage = (function () {
     
     //create a image tag
     var logoImg = document.createElement('img');
+    
     logoImg.src = './assets/images/logo.png';
     logoImg.alt = 'logo';
     logoImg.id = 'logo';
