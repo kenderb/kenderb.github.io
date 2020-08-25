@@ -1,5 +1,5 @@
 body {
-    background-image: url("./assets/images/Backgorund2.jpg");
+    background-image: url("/dist/assets/images/Backgorund2.jpg");
     color: #ff9035;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
