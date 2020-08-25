@@ -1,5 +1,4 @@
 body {
-    background-image: url("/dist/assets/images/Backgorund2.jpg");
     color: #ff9035;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
@@ -28,7 +27,7 @@ h1 {
     margin-right: 5%;
 }
 nav {
-    width: 600px;
+    width: 550px;
     border-radius: 8px;
     display: flex;
     justify-content: center;

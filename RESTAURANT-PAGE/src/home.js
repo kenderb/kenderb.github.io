@@ -1,6 +1,8 @@
 export {homePage};
 
 var homePage = (function () {
+    var body = document.querySelector('body');
+    body.style.backgroundImage = 'url("./assets/images/Backgorund2.jpg")'
     //get the container
     var container = document.querySelector(".container")
 
@@ -33,7 +35,7 @@ var homePage = (function () {
     
     //create a image tag
     var logoImg = document.createElement('img');
-    
+
     logoImg.src = './assets/images/logo.png';
     logoImg.alt = 'logo';
     logoImg.id = 'logo';
