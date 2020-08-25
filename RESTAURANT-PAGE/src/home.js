@@ -1,8 +1,10 @@
 export {homePage};
 
 var homePage = (function () {
+    //body background
     var body = document.querySelector('body');
-    body.style.backgroundImage = 'url("./assets/images/Backgorund2.jpg")'
+    body.style.backgroundImage = 'url("./assets/images/Backgorund2.jpg")';
+
     //get the container
     var container = document.querySelector(".container")
 
