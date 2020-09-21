@@ -67,7 +67,7 @@ button {
 }
 
 .Hamburger {
-  background-image: url("/assets/image/hamburger.svg");
+  background-image: url("assets/image/hamburger.svg");
   background-size: 4em;
   border-radius: 50%;
 }
@@ -84,7 +84,7 @@ button {
 }
 
 .submitbutton {
-  background-image: url("/assets/image/searchLogo.png");
+  background-image: url("assets/image/searchLogo.png");
   background-size: 1.2em;
   background-color: #f7f7f7;
   border: 0.05em solid var(--grayColorOne);
@@ -112,7 +112,7 @@ button {
   border-radius: 0.2em;
 }
 .upload {
-  background-image: url("/assets/image/createLogo.svg");
+  background-image: url("assets/image/createLogo.svg");
   background-size: 8em;
 }
 
@@ -260,7 +260,7 @@ aside h1 {
 }
 
 .subscribe {
-  background-image: url("/assets/image/youtubeLogoSubscribe.png");
+  background-image: url("assets/image/youtubeLogoSubscribe.png");
   background-position-x: 0.3em;
   background-size: 1.8em;
   margin-top: 0.01em;
@@ -315,22 +315,22 @@ aside h1 {
 }
 
 .plus {
-  background-image: url("/assets/image/PlusIcon.svg");
+  background-image: url("assets/image/PlusIcon.svg");
   background-size: 12em;
 }
 
 .Share {
-  background-image: url("/assets/image/shareIcon.png");
+  background-image: url("assets/image/shareIcon.png");
   background-size: 2em;
 }
 
 .More {
-  background-image: url("/assets/image/dots.svg");
+  background-image: url("assets/image/dots.svg");
   background-size: 6.5em;
 }
 
 .Likes {
-  background-image: url("/assets/image/likeIcon.png");
+  background-image: url("assets/image/likeIcon.png");
   background-size: 3.5em;
 }
 
