@@ -2,14 +2,29 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   background-color: #e6e6e6;
-  font-family: arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
   --bluecolor: #167ac6;
   --grayColorOne: #b6b6b6;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  width: 2em;
+  padding: 1.5em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  height: 2.25em;
+  border: 0;
 }
 
 .whiteBGColor,
@@ -22,26 +37,33 @@ aside li,
 
 .subscribe,
 .popUp > h4,
-.popUp button,
-.subscribe {
+.popUp button {
   color: white;
 }
+
 .navbar,
 .popUp {
   z-index: 50;
 }
+
+.actualDescription,
+.videoDescription > h3 {
+  color: rgb(56, 56, 56);
+  font-size: 0.9em;
+}
+
 .displayFlexbox {
   display: flex;
 }
+
 img {
   width: 100%;
 }
+
 iframe {
   width: 100%;
   height: 100%;
-}
-li {
-  list-style: none;
+  border: none;
 }
 
 .navbar {
@@ -51,24 +73,15 @@ li {
 
 .navbar > ul {
   height: 3.2em;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
   align-items: center;
-}
-
-button {
-  height: 2em;
-  width: 2em;
-  padding: 1.5em;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: transparent;
-  height: 2.25em;
-  border: 0;
 }
 
 .Hamburger {
   background-image: url("../assets/image/hamburger.svg");
-  background-size: 4em;
+  background-size: 3em;
   border-radius: 50%;
 }
 
@@ -98,10 +111,11 @@ button {
 }
 
 .UploadAndSignContainer {
-  width: 9em;
+  width: 12em;
   justify-content: space-between;
   align-items: center;
 }
+
 .SignIn {
   font-weight: bold;
   background-color: var(--bluecolor);
@@ -111,13 +125,21 @@ button {
   width: 5.6em;
   border-radius: 0.2em;
 }
+
 .upload {
   background-image: url("../assets/image/createLogo.svg");
-  background-size: 8em;
+  background-size: 5em;
 }
 
-button:active {
-  filter: brightness(88%);
+.appIcon {
+  background-image: url("../assets/image/appLogo.svg");
+  background-size: 5em;
+}
+
+.settings {
+  background-image: url("../assets/image/dots.svg");
+  background-size: 4em;
+  transform: rotate(90deg);
 }
 
 .popUp {
@@ -126,7 +148,7 @@ button:active {
   flex-direction: column;
   margin-bottom: 1.1em;
   position: sticky;
-  top: 3.5em;
+  top: 3.4em;
 }
 
 .popUp > h4 {
@@ -145,6 +167,10 @@ button:active {
 .popUp a {
   text-decoration: none;
   color: var(--bluecolor);
+}
+
+button:active {
+  filter: brightness(88%);
 }
 
 .popUp button {
@@ -166,6 +192,10 @@ main {
   row-gap: 1.1em;
 }
 
+.topLine {
+  border-top: 0.1em solid #7777775e;
+}
+
 aside {
   grid-area: playList;
   padding: 0.5em;
@@ -173,12 +203,9 @@ aside {
   margin-left: -0.5em;
   height: 93em;
 }
+
 aside img {
   flex: 60%;
-}
-
-aside article {
-  flex: 40%;
 }
 
 aside li {
@@ -214,11 +241,6 @@ aside li {
 .videoTitle > h2 {
   margin-bottom: 0.8em;
   font-weight: lighter;
-}
-
-.videoDescription {
-  grid-area: videoDescription;
-  padding: 0.5em;
 }
 
 .VideoPlayer {
@@ -338,10 +360,12 @@ aside h1 {
   margin-top: 0.6em;
   transform: scale(-1);
 }
+
 .blueLineContainer {
   margin-top: -0.2em;
   justify-content: flex-end;
 }
+
 .grayLine {
   background-color: rgb(165, 165, 165);
   flex: 5%;
@@ -358,12 +382,10 @@ aside h1 {
   color: gray;
   font-size: 0.7em;
 }
-.actualDescription,
-.videoDescription > h3 {
-  color: rgb(56, 56, 56);
-  font-size: 0.9em;
-}
+
 .videoDescription {
   flex-direction: column;
   justify-content: space-between;
+  grid-area: videoDescription;
+  padding: 0.5em;
 }
