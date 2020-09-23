@@ -39,21 +39,6 @@
         </h1>
         <ul class="logosMiddleTop flexBox">
           <li class="flexBox">
-            <a href="#"
-              ><img
-                src="assets/images/hojaMenta.svg"
-                alt="Leaf"
-                class="appIcons"
-            /></a>
-            <a href="#" class="text">mint</a>
-          </li>
-          <li class="flexBox">
-            <a href="#"
-              ><img src="assets/images/qb.svg" alt="qb" class="appIcons"
-            /></a>
-            <a href="#" class="text">quickbooks</a>
-          </li>
-          <li class="flexBox">
             <a href="#">
               <img
                 src="assets/images/paloma.svg"
@@ -63,6 +48,22 @@
             </a>
             <a href="#" class="text">turbotax</a>
           </li>
+          <li class="flexBox">
+            <a href="#">
+              <img src="assets/images/qb.svg" alt="qb" class="appIcons" />
+            </a>
+            <a href="#" class="text">quickbooks</a>
+          </li>
+          <li class="flexBox">
+            <a href="#">
+              <img
+                src="assets/images/hojaMenta.svg"
+                alt="Leaf"
+                class="appIcons"
+              />
+            </a>
+            <a href="#" class="text">mint</a>
+          </li>
         </ul>
         <form action="/login" class="actualForm">
           <div class="fiedsetOne flexBox">
@@ -71,21 +72,27 @@
               <p>One account for everything Intuit, including Mint.</p>
               <p class="apart"><a href="#">Learn more</a></p>
             </div>
-            <label class="iten namesFields">
-              Email address<input type="email" name="email" required />
-            </label>
-            <label class="iten namesFields">
-              Phone (recommended)<input type="tel" name="telephone" required />
-              <p class="standardCall">
+            <div class="iten namesFields padding-top">
+              <label>Email address</label>
+              <input type="email" name="email" required />
+            </div>
+            <div class="iten namesFields padding-top">
+              <label>Phone (recommended)</label>
+              <input type="tel" name="telephone" required />
+              <label class="standardCall">
                 Standard call, messaging or data rates may apply.
-              </p>
-            </label>
-            <label class="iten namesFields">
-              Password<input type="password" name="password" required />
-            </label>
-            <label class="iten">
-              <input type="submit" value="Create account" />
-            </label>
+              </label>
+            </div>
+            <div class="iten namesFields padding-top">
+              <label>Password</label>
+              <input type="password" name="password" required class="password" />
+            </div>
+            <div class="iten padding-top">
+              <button class="signIn blueColorBG create-account" type="submit">
+                <i class="fas fa-lock"></i>
+                Create account
+              </button>
+            </div>
             <div class="iten textCenter footerField">
               <p class="italiFont">
                 By clicking Create account, you agree to our

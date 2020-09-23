@@ -141,7 +141,7 @@ form {
   flex-direction: column;
 }
 
-label {
+.padding-top {
   padding-top: 2em;
 }
 
@@ -198,13 +198,14 @@ input {
   margin-top: 0.5em;
 }
 
-input[type="submit"] {
+.create-account {
   height: 2.5em;
   border: 0.1em solid #505050;
   color: white;
   border-radius: 0.3em;
   font-size: 1.05em;
-  width: 20em;
+  width: 100%;
+  margin: auto;
   background-color: var(--blueColor);
 }
 
@@ -224,4 +225,16 @@ input[type="submit"] {
 
 .standardCall {
   font-size: 0.6em;
+}
+
+.password {
+  background-image: url("../assets/images/open-lock.svg");
+  background-repeat: no-repeat;
+  background-position-x: 22.4em;
+  background-size: 1.7em;
+  background-position-y: center;
+}
+
+.password:focus {
+  background-image: none;
 }
