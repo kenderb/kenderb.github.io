@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blueColor: #0077c5;
+}
+
+body {
+  background-color: #eceef1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blueColor);
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+main,
+footer {
+  margin: auto;
+}
+
+main {
+  display: block;
+  flex-direction: column;
+  margin-top: 2.5em;
+  width: 20em;
+}
+
+footer {
+  position: relative;
+  bottom: 3.5em;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  color: #505050;
+}
+
+footer a {
+  margin-left: 0.5em;
+  color: #505050;
+}
+
+.blueColorBG {
+  background-color: var(--blueColor);
+}
+
+.blueColor {
+  color: var(--blueColor);
+}
+
+.flexBox {
+  display: flex;
+}
+
+.leftBox {
+  flex: 10%;
+}
+
+.rightBox {
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin-top: 1em;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 0.8em;
+  color: #505050;
+}
+
+.signIn {
+  margin-left: 0.5em;
+  margin-right: 2em;
+  border-radius: 0.3em;
+  border: 0.01em solid #4d4f51bb;
+  color: white;
+  font-size: 1.1em;
+  height: 2.4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.logosMiddleTop {
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  font-weight: normal;
+}
+
+.logosMiddleTop li {
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  height: 50em;
+}
+
+.intuitIng {
+  width: 3.5em;
+}
+
+.appIcons {
+  width: 1.5em;
+  margin-top: 0.2em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  filter: brightness(1.2);
+}
+
+.text {
+  font-size: 1.1em;
+  color: #505050b9;
+}
+
+form {
+  background-color: white;
+  border-radius: 0.15em;
+  border: 0.1em solid #5050503d;
+  border-bottom: none;
+  padding: 3em 1.4em 1.8em 1.4em;
+  height: 32em;
+}
+
+.fiedsetOne {
+  flex-direction: column;
+}
+
+label {
+  padding-top: 2em;
+}
+
+.textCenter {
+  margin-top: -1em;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.textCenter > * + * {
+  margin-top: 0.8em;
+}
+
+.textCenter h2 {
+  font-size: 1.7em;
+}
+
+.apart {
+  margin-top: -0.1em;
+}
+
+.fieldsetTwo {
+  margin-top: -1em;
+  text-align: center;
+  font-size: 0.6em;
+  width: 30em;
+  padding: 2.5em 4.9em;
+  border-radius: 0.01em 0.01em 0.3em 0.3em;
+  border: 0.1em solid #5050502c;
+  background-color: #eceef1;
+  border-top: none;
+  color: rgb(99, 99, 99);
+}
+
+input {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 25em;
+  height: 2.5em;
+  border: 0.05em solid #5050503d;
+}
+
+.footerFieldsetOne {
+  margin-bottom: 2em;
+}
+
+.footerField {
+  margin-top: 1em;
+  font-size: small;
+  color: #505050;
+}
+
+.footerField > p + p {
+  margin-top: 0.5em;
+}
+
+input[type="submit"] {
+  height: 2.5em;
+  border: 0.1em solid #505050;
+  color: white;
+  border-radius: 0.3em;
+  font-size: 1.05em;
+  width: 20em;
+  background-color: var(--blueColor);
+}
+
+.italiFont {
+  font-style: italic;
+}
+
+.headImage {
+  font-weight: lighter;
+  color: rgb(63, 63, 63);
+}
+
+.namesFields {
+  color: rgb(99, 99, 99);
+  font-size: 0.9em;
+}
+
+.standardCall {
+  font-size: 0.6em;
+}
