@@ -141,24 +141,30 @@ footer a {
 }
 
 aside {
+  margin-left: 40rem;
   position: absolute;
+  margin-top: -14rem;
   display: flex;
   flex-direction: column;
-  margin-top: 115rem;
-  margin-left: 72.2%;
-  margin-right: 10%;
   width: 250px;
+  text-align: left;
 }
 
 aside img {
   float: left;
-  width: 30%;
+  max-width: 5rem;
   margin-right: 10px;
 }
 
 aside div {
   margin-top: 25px;
   margin-left: 11px;
+}
+
+.editor-pick a,
+.more-astronomy a {
+  text-decoration: none;
+  color: black;
 }
 
 .box-inflation-content p {
