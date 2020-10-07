@@ -25,6 +25,10 @@
   src: url("../assets/fonts/OPTIFormula-One.otf");
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body,
 button,
 input {
