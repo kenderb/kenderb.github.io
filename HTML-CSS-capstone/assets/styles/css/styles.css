@@ -117,11 +117,11 @@ header {
 
 @font-face {
   font-family: Quicksand-Variable;
-  src: url("/assets/fonts/Quicksand-VariableFont_wght.ttf");
+  src: url("/HTML-CSS-capstone/assets/fonts/Quicksand-VariableFont_wght.ttf");
 }
 
 .search-section {
-  background-image: linear-gradient(#140909, #03030334, #0e0e0e), url("/assets/images/BG-imge-searh-section.jpg");
+  background-image: linear-gradient(#140909, #03030334, #0e0e0e), url("/HTML-CSS-capstone/assets/images/BG-imge-searh-section.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -639,7 +639,7 @@ header {
 }
 
 .bg-image-1 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-1.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -647,7 +647,7 @@ header {
 }
 
 .bg-image-2 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-2.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -655,7 +655,7 @@ header {
 }
 
 .bg-image-3 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-3.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -663,7 +663,7 @@ header {
 }
 
 .bg-image-4 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-4.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -671,7 +671,7 @@ header {
 }
 
 .bg-image-5 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-5.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-5.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -679,7 +679,7 @@ header {
 }
 
 .bg-image-6 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-6.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-6.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -687,7 +687,7 @@ header {
 }
 
 .bg-image-7 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-7.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-7.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -695,7 +695,7 @@ header {
 }
 
 .bg-image-8 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-8.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-8.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -703,7 +703,7 @@ header {
 }
 
 .bg-image-9 {
-  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/assets/images/bg-9.jpg");
+  background-image: linear-gradient(#140909, #00000063, #0e0e0e), url("/HTML-CSS-capstone/assets/images/bg-9.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
