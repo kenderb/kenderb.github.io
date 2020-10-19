@@ -6,3 +6,6 @@ listSearchTag.forEach(element => {
     location.href = "./search-result.html";
   };
 });
+
+
+
